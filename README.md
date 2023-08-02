@@ -41,7 +41,12 @@ The code decompresses .nii.gz files in the "SSA_Training" directory to .nii form
 
 ## Usage:
 
-Clone the repository to your local machine:
+1. Clone the repository to your local machine:
+<pre>
+git clone https://github.com/hasannasirkhan/kaggle-empty-folder-fix.git  
+</pre>
+
+2. Run the preprocessing script to decompress the .nii.gz files and save them as .nii files:
 <pre>
   python decompress_nii.py
 </pre>
